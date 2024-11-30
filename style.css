@@ -1,0 +1,46 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('flag.jpg'); /* Ensure the correct path to the image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Background for container with transparency */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.3); /* Transparent black background */
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #000; /* Black text */
+}
+
+.nav-link {
+    color: #000; /* Black text */
+}
+
+.nav-link:hover {
+    color: #333; /* Slightly darker black on hover */
+}
+
+/* Transparent main content box */
+.main {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.6); /* Transparent white background */
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow with a light blur effect */
+}
+
+/* Optional: To ensure text is visible on the transparent background */
+h1, h2, p, label {
+    color: #030303; /* Darker color for readability */
+}
